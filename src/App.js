@@ -1,26 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { ThemeProvider } from "react-jss";
+import Home from "./Pages/Home";
+import { RecoilRoot } from "recoil";
 
-function App() {
+const theme = {
+  borderColor: "#bcbcbc",
+  textColor: "#333",
+  primaryColor: "#f95658",
+};
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RecoilRoot>
+      <ThemeProvider theme={theme}>
+        <Home />
+      </ThemeProvider>
+    </RecoilRoot>
   );
-}
+};
 
 export default App;
