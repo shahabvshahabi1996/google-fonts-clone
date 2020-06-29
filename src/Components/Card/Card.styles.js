@@ -9,8 +9,8 @@ export default createUseStyles({
         return fontSize;
       },
       padding: 15,
-      backgroundColor: "#eee",
-      borderRadius: 8,
+      // backgroundColor: "#eee",
+      borderTop: "1px solid #ddd",
       minHeight: 150,
     },
   },
