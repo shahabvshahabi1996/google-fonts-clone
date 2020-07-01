@@ -57,12 +57,17 @@ export default createUseStyles((theme) => ({
   thumb: {
     position: "absolute",
     right: ({ width }) => {
-      return `calc(${width}% - 10px)`;
+      return `calc(${width}% - 5px)`;
     },
     top: 3,
     height: 15,
     width: 15,
     borderRadius: "50%",
     backgroundColor: `${theme.primaryColor}`,
+    transition: "box-shadow 0.3s",
+    cursor: "pointer",
+    "&:hover": {
+      boxShadow: `${theme.boxShadowStyle}`,
+    },
   },
 }));
