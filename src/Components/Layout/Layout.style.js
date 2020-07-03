@@ -25,4 +25,11 @@ export default createUseStyles((theme) => ({
       },
     },
   },
+  container: {
+    maxWidth: "80%",
+    margin: "0 auto",
+    "@media screen and (max-width:720px)": {
+      maxWidth: "90%",
+    },
+  },
 }));

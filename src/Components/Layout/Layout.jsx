@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
           <i className="material-icons">bookmark</i>
         </div>
       </header>
-      <div className="container">
+      <div className={classes.container}>
         <ToolBox />
         {children}
       </div>
