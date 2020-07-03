@@ -2,5 +2,5 @@ import { atom } from "recoil";
 
 export const sliderState = atom({
   key: "sliderState",
-  default: 20,
+  default: 30,
 });
