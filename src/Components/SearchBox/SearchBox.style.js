@@ -8,6 +8,8 @@ export default createUseStyles((theme) => ({
     alignItems: "center",
     margin: "0 auto",
     borderRadius: 8,
+    flex: 3,
+    width: "100%",
     "& > input": {
       all: "unset",
       color: `${theme.textColor}`,

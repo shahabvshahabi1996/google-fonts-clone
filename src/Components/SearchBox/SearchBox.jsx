@@ -6,7 +6,7 @@ const SearchBox = () => {
   return (
     <div className={classes.root}>
       <i className="material-icons">search</i>
-      <input />
+      <input placeholder="هرچی دل تنگت میخواهد سرچ کن.." />
     </div>
   );
 };
