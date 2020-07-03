@@ -3,21 +3,29 @@ import { createUseStyles } from "react-jss";
 export default createUseStyles((theme) => ({
   root: {
     margin: "10px auto",
-    minHeight: 150,
+    minHeight: 250,
     position: "relative",
+    border: "1px solid #ddd",
+    borderRadius: 8,
+    padding: 5,
   },
   content: {
     fontSize: ({ fontSize }) => {
-      console.log(fontSize);
       return fontSize;
     },
-    padding: 15,
+    fontFamily: ({ family }) => {
+      return family;
+    },
+    padding: "5px 10px",
+    "&:focus": {
+      outline: "none !important",
+    },
   },
   topBar: {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    borderBottom: "1px solid #ddd",
+    // borderTop: "1px solid #ddd",
     "& > h3": {
       fontWeight: 300,
       fontSize: 20,

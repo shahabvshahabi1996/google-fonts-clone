@@ -7,7 +7,7 @@ export default createUseStyles({
       padding: 15,
       backgroundColor: "#DDDBDD",
       borderRadius: 8,
-      minHeight: 150,
+      minHeight: 250,
       position: "relative",
       overflow: "hidden",
       "&:after": {
