@@ -24,9 +24,14 @@ const Card = ({ familyInPersian, family, content }) => {
       el.type = "text/css";
       el.rel = "stylesheet";
       el.href = `https://api.fontgraphy.ir/css?family=${family}`;
-      resolve(head.appendChild(el));
-    }).then(() => {
-      setMounted(true);
+      head.appendChild(el);
+      setTimeout(() => {
+        resolve(true);
+      }, 1000);
+    }).then((success) => {
+      if (success) {
+        setMounted(true);
+      }
     });
   };
 
