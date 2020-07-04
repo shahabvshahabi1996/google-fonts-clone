@@ -1,6 +1,6 @@
 import React from "react";
 import { ThemeProvider } from "react-jss";
-import Home from "./Pages/Home";
+import Home from "./Pages/Home/";
 import { RecoilRoot } from "recoil";
 import CustomThemeProvider from "./Components/CustomThemeProvider/CustomThemeProvider";
 
