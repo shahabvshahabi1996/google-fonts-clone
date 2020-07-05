@@ -5,11 +5,13 @@ import { sliderStateValue } from "../../Selectors/Card.selector";
 import { textInputValue } from "../../Selectors/TextContent.selector";
 import CardSkeleton from "../CardSkeleton";
 import PropType from "prop-types";
+import Modal from "../Modal";
 
 const Card = ({ familyInPersian, family, content }) => {
   const value = useRecoilValue(sliderStateValue);
   const classes = Styles({ fontSize: value, family });
   const [mounted, setMounted] = React.useState(false);
+  const [openModal, setModalOpen] = React.useState(false);
   const textValue = useRecoilValue(textInputValue);
 
   useEffect(() => {
@@ -35,28 +37,42 @@ const Card = ({ familyInPersian, family, content }) => {
     });
   };
 
+  const closeModal = () => {
+    setModalOpen(false);
+    return;
+  };
+
   if (mounted) {
     return (
-      <div className={classes.root}>
-        <div className={classes.topBar}>
-          <h3>{familyInPersian}</h3>
-          <div className={classes.iconContainer}>
-            <div>
-              <i className="material-icons">arrow_downward</i>
-            </div>
-            {/* <div>
+      <>
+        {openModal && (
+          <Modal
+            closeModal={closeModal}
+            familyInPersian={familyInPersian}
+            family={family}
+          />
+        )}
+        <div className={classes.root}>
+          <div className={classes.topBar}>
+            <h3>{familyInPersian}</h3>
+            <div className={classes.iconContainer}>
+              <div onClick={() => setModalOpen(true)}>
+                <i className="material-icons">arrow_downward</i>
+              </div>
+              {/* <div>
               <i className="material-icons">bookmark</i>
             </div> */}
+            </div>
+          </div>
+          <div
+            contentEditable={true}
+            suppressContentEditableWarning={true}
+            className={classes.content}
+          >
+            {textValue ? textValue : content}
           </div>
         </div>
-        <div
-          contentEditable={true}
-          suppressContentEditableWarning={true}
-          className={classes.content}
-        >
-          {textValue ? textValue : content}
-        </div>
-      </div>
+      </>
     );
   }
 
