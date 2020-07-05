@@ -11,10 +11,10 @@ const Layout = ({ children }) => {
         <a>
           <img src="https://fontgraphy.ir/img/logo.9b97fa60.png"></img>
         </a>
-        <div>
+        {/* <div>
           <a>درباره ما</a>
           <i className="material-icons">bookmark</i>
-        </div>
+        </div> */}
       </header>
       <div className={classes.container}>
         <ToolBox />
