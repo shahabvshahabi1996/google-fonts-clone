@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/google-fonts-clone/static/css/main.0ec7edf5.chunk.css",
-    "main.js": "/google-fonts-clone/static/js/main.940c326a.chunk.js",
-    "main.js.map": "/google-fonts-clone/static/js/main.940c326a.chunk.js.map",
+    "main.js": "/google-fonts-clone/static/js/main.2b707763.chunk.js",
+    "main.js.map": "/google-fonts-clone/static/js/main.2b707763.chunk.js.map",
     "runtime-main.js": "/google-fonts-clone/static/js/runtime-main.d577d428.js",
     "runtime-main.js.map": "/google-fonts-clone/static/js/runtime-main.d577d428.js.map",
     "static/js/2.fb8a9946.chunk.js": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js",
     "static/js/2.fb8a9946.chunk.js.map": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js.map",
     "index.html": "/google-fonts-clone/index.html",
-    "precache-manifest.5a15219922b5ea12ace66f382acbf7dd.js": "/google-fonts-clone/precache-manifest.5a15219922b5ea12ace66f382acbf7dd.js",
+    "precache-manifest.5ec52346fb9e0ddb066a1684ffeec4fc.js": "/google-fonts-clone/precache-manifest.5ec52346fb9e0ddb066a1684ffeec4fc.js",
     "service-worker.js": "/google-fonts-clone/service-worker.js",
     "static/css/main.0ec7edf5.chunk.css.map": "/google-fonts-clone/static/css/main.0ec7edf5.chunk.css.map",
     "static/js/2.fb8a9946.chunk.js.LICENSE.txt": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d577d428.js",
     "static/js/2.fb8a9946.chunk.js",
     "static/css/main.0ec7edf5.chunk.css",
-    "static/js/main.940c326a.chunk.js"
+    "static/js/main.2b707763.chunk.js"
   ]
 }
