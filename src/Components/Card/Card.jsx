@@ -19,22 +19,17 @@ const Card = ({ familyInPersian, family, content }) => {
   }, []);
 
   const fetchFont = () => {
-    // eslint-disable-next-line no-undef
-    new Promise((resolve) => {
-      let head = document.head;
-      let el = document.createElement("link");
-      el.type = "text/css";
-      el.rel = "stylesheet";
-      el.href = `https://api.fontgraphy.ir/css?family=${family}`;
-      head.appendChild(el);
+    let head = document.head;
+    let el = document.createElement("link");
+    el.type = "text/css";
+    el.rel = "stylesheet";
+    el.href = `https://api.fontgraphy.ir/css?family=${family}`;
+    head.appendChild(el);
+    el.onload = () => {
       setTimeout(() => {
-        resolve(true);
-      }, 1000);
-    }).then((success) => {
-      if (success) {
         setMounted(true);
-      }
-    });
+      }, 500);
+    };
   };
 
   const closeModal = () => {

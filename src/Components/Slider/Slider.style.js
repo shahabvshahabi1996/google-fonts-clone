@@ -3,6 +3,7 @@ import { createUseStyles } from "react-jss";
 export default createUseStyles((theme) => ({
   root: {
     border: `1px solid ${theme.borderColor}`,
+    fontFamily: `"Sahel", sans-serif !important`,
     padding: "8px 10px",
     display: "flex",
     flex: 3,
