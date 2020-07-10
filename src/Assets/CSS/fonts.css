@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Sahel;
+  font-family: MySahel;
   src: url("../Fonts/Sahel.eot");
   src: url("../Fonts/Sahel.eot?#iefix") format("embedded-opentype"),
     url("../Fonts/Sahel.woff2") format("woff2"),
@@ -9,7 +9,7 @@
 }
 
 @font-face {
-  font-family: Sahel;
+  font-family: MySahel;
   src: url("../Fonts/Sahel-Bold.eot");
   src: url("../Fonts/Sahel-Bold.eot?#iefix") format("embedded-opentype"),
     url("../Fonts/Sahel-Bold.woff2") format("woff2"),
@@ -19,7 +19,7 @@
 }
 
 @font-face {
-  font-family: Sahel;
+  font-family: MySahel;
   src: url("../Fonts/Sahel-Light.eot");
   src: url("../Fonts/Sahel-Light.eot?#iefix") format("embedded-opentype"),
     url("../Fonts/Sahel-Light.woff2") format("woff2"),
@@ -29,7 +29,7 @@
 }
 
 @font-face {
-  font-family: Sahel;
+  font-family: MySahel;
   src: url("../Fonts/Sahel-SemiBold.eot");
   src: url("../Fonts/Sahel-SemiBold.eot?#iefix") format("embedded-opentype"),
     url("../Fonts/Sahel-SemiBold.woff2") format("woff2"),
@@ -39,7 +39,7 @@
 }
 
 @font-face {
-  font-family: Sahel;
+  font-family: MySahel;
   src: url("../Fonts/Sahel-Black.eot");
   src: url("../Fonts/Sahel-Black.eot?#iefix") format("embedded-opentype"),
     url("../Fonts/Sahel-Black.woff2") format("woff2"),
