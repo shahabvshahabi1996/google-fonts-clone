@@ -32,9 +32,6 @@ const Modal = ({ familyInPersian = "", family = "", closeModal }) => {
             دانلود فونت{" "}
             <span className={classes.fontName}>{familyInPersian}</span>
           </h2>
-          {/* <div className={classes.iconButton}>
-            <i className="material-icons">bookmark_outlined</i>
-          </div> */}
         </div>
         <p>
           درصورتی که میخواهید فونت انتخاب شده رو ما براتون سرو کنیم و از سرور ما

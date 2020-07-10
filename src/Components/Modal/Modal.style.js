@@ -2,6 +2,7 @@ import { createUseStyles } from "react-jss";
 export default createUseStyles((theme) => ({
   root: {
     backgroundColor: "rgba(0,0,0,0.37)",
+    backdropFilter: "blur(5px)",
     width: "100vw",
     height: "100vh",
     position: "fixed",
