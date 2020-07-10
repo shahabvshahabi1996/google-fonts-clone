@@ -7,6 +7,7 @@ import LazyLoad from "react-lazyload";
 import styles from "./Home.style";
 import { useRecoilValue } from "recoil";
 import { searchInputStateValue } from "../../Selectors/SeachInput.selector";
+// import Drawer from "../../Components/Drawer";
 
 const Home = () => {
   const { containerStyle } = useContext(CustomThemeContext);
@@ -58,6 +59,7 @@ const Home = () => {
 
   return (
     <Layout>
+      {/* <Drawer /> */}
       <div className={classes.parent}>
         {mounted ? (
           filteredList.length > 0 ? (
