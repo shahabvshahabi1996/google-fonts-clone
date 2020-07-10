@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "./Layout.style";
 import PropTypes from "prop-types";
 import ToolBox from "../ToolBox";
+import IconicButton from "../IconicButton/IconicButton";
 
 const Layout = ({ children }) => {
   const classes = Styles();
@@ -11,10 +12,9 @@ const Layout = ({ children }) => {
         <a>
           <img src="https://fontgraphy.ir/img/logo.9b97fa60.png"></img>
         </a>
-        {/* <div>
-          <a>درباره ما</a>
-          <i className="material-icons">bookmark</i>
-        </div> */}
+        <div>
+          <IconicButton type="dark" iconName="bookmark" />
+        </div>
       </header>
       <div className={classes.container}>
         <ToolBox />

@@ -1,6 +1,6 @@
 import { createUseStyles } from "react-jss";
 
-export default createUseStyles((theme) => ({
+export default createUseStyles({
   root: {
     margin: "10px auto",
     minHeight: 250,
@@ -35,23 +35,7 @@ export default createUseStyles((theme) => ({
     display: "flex",
     alignItems: "flex-end",
     "& > div": {
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
-      width: 30,
-      height: 30,
-      borderRadius: "50%",
-      backgroundColor: `${theme.primaryColor}`,
       marginLeft: 5,
-      color: `${theme.iconColor}`,
-      cursor: "pointer",
-      transition: "box-shadow 0.3s",
-      "& > i": {
-        fontSize: 20,
-      },
-      "&:hover": {
-        boxShadow: `${theme.boxShadowStyle}`,
-      },
     },
   },
-}));
+});

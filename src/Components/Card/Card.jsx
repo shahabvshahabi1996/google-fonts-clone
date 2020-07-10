@@ -6,6 +6,7 @@ import { textInputValue } from "../../Selectors/TextContent.selector";
 import CardSkeleton from "../CardSkeleton";
 import PropType from "prop-types";
 import Modal from "../Modal";
+import IconicButton from "../IconicButton/IconicButton";
 
 const Card = ({ familyInPersian, family, content }) => {
   const value = useRecoilValue(sliderStateValue);
@@ -51,9 +52,10 @@ const Card = ({ familyInPersian, family, content }) => {
           <div className={classes.topBar}>
             <h3>{familyInPersian}</h3>
             <div className={classes.iconContainer}>
-              <div onClick={() => setModalOpen(true)}>
-                <i className="material-icons">arrow_downward</i>
-              </div>
+              <IconicButton
+                iconName="arrow_downward"
+                onClick={() => setModalOpen(true)}
+              />
               {/* <div>
               <i className="material-icons">bookmark</i>
             </div> */}
