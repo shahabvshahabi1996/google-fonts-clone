@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6d26e9ad9534cb719a62de58bc03c808",
+    "revision": "1ca7b7f72eb5fcf122a222d28b2f01ee",
     "url": "/google-fonts-clone/index.html"
   },
   {
-    "revision": "75e4e251cb1161842571",
-    "url": "/google-fonts-clone/static/css/main.0ec7edf5.chunk.css"
+    "revision": "710c6a053f5b6be8b054",
+    "url": "/google-fonts-clone/static/css/main.247aa80f.chunk.css"
   },
   {
-    "revision": "fc0a2a6ac95b32b28194",
-    "url": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js"
+    "revision": "95e33dedf7ee081081a1",
+    "url": "/google-fonts-clone/static/js/2.37c99a5c.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js.LICENSE.txt"
+    "url": "/google-fonts-clone/static/js/2.37c99a5c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75e4e251cb1161842571",
-    "url": "/google-fonts-clone/static/js/main.2b707763.chunk.js"
+    "revision": "710c6a053f5b6be8b054",
+    "url": "/google-fonts-clone/static/js/main.0fbf5aa2.chunk.js"
   },
   {
     "revision": "0798c0fc6303ed1d4afa",

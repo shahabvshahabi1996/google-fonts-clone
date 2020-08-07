@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/google-fonts-clone/static/css/main.0ec7edf5.chunk.css",
-    "main.js": "/google-fonts-clone/static/js/main.2b707763.chunk.js",
-    "main.js.map": "/google-fonts-clone/static/js/main.2b707763.chunk.js.map",
+    "main.css": "/google-fonts-clone/static/css/main.247aa80f.chunk.css",
+    "main.js": "/google-fonts-clone/static/js/main.0fbf5aa2.chunk.js",
+    "main.js.map": "/google-fonts-clone/static/js/main.0fbf5aa2.chunk.js.map",
     "runtime-main.js": "/google-fonts-clone/static/js/runtime-main.d577d428.js",
     "runtime-main.js.map": "/google-fonts-clone/static/js/runtime-main.d577d428.js.map",
-    "static/js/2.fb8a9946.chunk.js": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js",
-    "static/js/2.fb8a9946.chunk.js.map": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js.map",
+    "static/js/2.37c99a5c.chunk.js": "/google-fonts-clone/static/js/2.37c99a5c.chunk.js",
+    "static/js/2.37c99a5c.chunk.js.map": "/google-fonts-clone/static/js/2.37c99a5c.chunk.js.map",
     "index.html": "/google-fonts-clone/index.html",
-    "precache-manifest.5ec52346fb9e0ddb066a1684ffeec4fc.js": "/google-fonts-clone/precache-manifest.5ec52346fb9e0ddb066a1684ffeec4fc.js",
+    "precache-manifest.a6e4f2101119aa588ea4db9385cd60b7.js": "/google-fonts-clone/precache-manifest.a6e4f2101119aa588ea4db9385cd60b7.js",
     "service-worker.js": "/google-fonts-clone/service-worker.js",
-    "static/css/main.0ec7edf5.chunk.css.map": "/google-fonts-clone/static/css/main.0ec7edf5.chunk.css.map",
-    "static/js/2.fb8a9946.chunk.js.LICENSE.txt": "/google-fonts-clone/static/js/2.fb8a9946.chunk.js.LICENSE.txt",
+    "static/css/main.247aa80f.chunk.css.map": "/google-fonts-clone/static/css/main.247aa80f.chunk.css.map",
+    "static/js/2.37c99a5c.chunk.js.LICENSE.txt": "/google-fonts-clone/static/js/2.37c99a5c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/google-fonts-clone/static/media/Sahel.e3337ef6.woff2"
   },
   "entrypoints": [
     "static/js/runtime-main.d577d428.js",
-    "static/js/2.fb8a9946.chunk.js",
-    "static/css/main.0ec7edf5.chunk.css",
-    "static/js/main.2b707763.chunk.js"
+    "static/js/2.37c99a5c.chunk.js",
+    "static/css/main.247aa80f.chunk.css",
+    "static/js/main.0fbf5aa2.chunk.js"
   ]
 }
